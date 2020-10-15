@@ -1,0 +1,115 @@
+.profile {
+    background-color:#848b91;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+    text-align: center;    
+   }
+
+h1 {
+    font-family: Georgia, "Malgun Gothic";
+    font-size: 1.34em;
+    font-weight: lighter;
+    color:white;
+
+}
+
+ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+    font-weight: lighter;
+    color: white;
+    font-size: 0.9em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+
+   
+   
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 75px;
+    margin: 0px auto;
+    margin-top: 250px;
+    }
+
+hr {
+    color: white;
+    width: 1100px;
+    margin-top: 40px;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    
+   }
+
+.icon {
+    width: 40px;
+    height: 40px;
+
+}
+
+.profile2 {
+    background-color:#539ad8;
+    margin: 0 auto;
+    margin-top: 70px;
+    width: 1200px;
+    height: 1000px;
+  }
+
+.history-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 10px;
+    }
+#home {
+    background-color:#4581b6 ;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    float: left;
+    height: 70px;
+    width: 1200px;
+    position: fixed;
+    top: 0;
+    }
+
+
+.homeicon {
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.balloon { 
+   font-family: Georgia, "Malgun Gothic";
+   font-size: 0.8em;
+   background-color: white;
+   margin-left: 10px;
+   width:400px;
+   height: relative;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+@media(max-width:800px) {
+    .profile {width: 400px;}
+    .profile2 {width: 400px;}
+    #home {width: 400px;}
+    hr {width: 350px;}
+    .balloon {width: 200px}
+   } 
