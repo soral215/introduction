@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>문병곤이 누구?</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
 
-You can use the [editor on GitHub](https://github.com/soral215/introduction/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<body>
+  <div class="profile">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <img src="images/KakaoTalk_20201013_151212634.jpg" class="profile-image">
+    
+    <h1>문병곤</h1>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <ul>
+     <li>31살</li>
+     <li>Dreaming developer</li>
+    </ul>
 
-```markdown
-Syntax highlighted code block
+    <hr>
 
-# Header 1
-## Header 2
-### Header 3
+ <span class="history">
+      <span><a href="baby.html" title="응애응애">
+        <img src="images/bottle-xxl.png" class="icon"/><br>응애 시절</a></span>
+      <span><a href="reporter.html" title="타닥타닥">
+        <img src="images/pencil-xxl.png" class="icon"/><br>기자 시절</a></span>
+      <span><a href="devjr.html" title="뚝딱뚝딱">
+        <img src="images/window-command-xxl.png" class="icon"/><br>주니어 개발자</a></span>
+    </span>
 
-- Bulleted
-- List
+  </div>
 
-1. Numbered
-2. List
+</body>
+</html>
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/soral215/introduction/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
