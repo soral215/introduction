@@ -27,12 +27,6 @@ const Chat = (function(){
     return chatLi;
 }
 
-// 메세지 태그 append
-function appendMessageTag(LR_className, senderName, message) {
-    const chatLi = createMessageTag(LR_className, senderName, message);
-
-    $('div.chat:not(.format) ul').append(chatLi);
-
     // 스크롤바 아래 고정
     $('div.chat').scrollTop($('div.chat').prop('scrollHeight'));
 }
@@ -57,7 +51,6 @@ function clearTextarea() {
 // 메세지 수신
 function resive(data) {
     const LR = (data.senderName != myName)? "left" : "right";
-    appendMessageTag("right", data.senderName, data.message);
 }
 
     return {
