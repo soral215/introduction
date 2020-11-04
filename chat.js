@@ -6,7 +6,9 @@ const Chat = (function(){
                 e.preventDefault();
                 const message = $(this).val();
               // 입력창 clear
-               clearTextarea();
+              function clearContents(textarea) {
+                textarea.value = '';
+              }
             }
         });
     }
