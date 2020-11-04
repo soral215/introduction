@@ -39,8 +39,6 @@ function sendMessage(message) {
         "message"        : message
     };
 
-    // 통신하는 기능이 없으므로 여기서 receive
-    receive(data);
 }
 
 // 메세지 입력박스 내용 지우기
