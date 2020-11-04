@@ -30,9 +30,7 @@ a {
     font-size: 0.8em;
     font-weight: lighter;
 }
-
-
-   
+  
    
 .profile-image {
     width: 200px;
@@ -118,6 +116,23 @@ hr {
     height: 70px; 
     padding: 10px;
 }
+
+.sender { 
+    margin: 10px 20px 0 20px; 
+    font-weight: bold; }
+
+.message { 
+    display: inline-block; 
+    word-break:break-all; 
+    margin: 5px 20px; 
+    max-width: 75%; 
+    border: 1px solid #888; 
+    padding: 10px; 
+    border-radius: 5px; 
+    background-color: #FCFCFC; 
+    color: #555; 
+    text-align: left; }
+
 
 @media(max-width:800px) {
     .input-div {width: 378px;}
