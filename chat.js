@@ -1,4 +1,5 @@
 const Chat = (function(){
+    const myName = "blue";
 
     // init 함수
     function init() {
