@@ -12,7 +12,10 @@ const Chat = (function(){
             }
         });
     }
-
+    // 메세지 입력박스 내용 지우기
+    function clearTextarea() {
+        $('div.input-div textarea').val('');
+    }
  
     return {
         'init': init
