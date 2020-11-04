@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>문병곤이 누구?</title>
   <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="chat.js"></script>
 </head>
 
 <body>
